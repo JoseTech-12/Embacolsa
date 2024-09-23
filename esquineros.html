@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMBACOLSA</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('uOMkaudyvqAkuhyhl')
+  </script>
+</head>
+
+<body>
+
+  <header class="header">
+
+
+    <img class="logo" src="IMGS/LOGO-ACTUALIZADO.png" alt="Logo">
+
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand enlaces" href="index.html">Inicio</a>
+          <ul class="navbar-nav d-flex justify-content-between">
+            <li class="nav-item enlaces">
+              <a class="navbar-brand " href="index.html">Quienes somos</a>
+            </li>
+            <li class="nav-item enlaces">
+              <a class="navbar-brand " href="index.html#producto">Productos</a>
+            </li>
+            <li class="nav-item enlaces">
+              <a class="navbar-brand" href="#contacto">Contacto</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="conten">
+      <img src="IMGS/whatsapp.png" alt="" class="icono enlaces">
+      <img src="IMGS/instagram.png" alt="" class="icono enlaces">
+      <img src="IMGS/gmail.png" alt="" class="icono enlaces">
+    </div>
+
+
+
+
+
+  </header>
+
+  <main style="margin-top: 120px;">
+    <a href="https://api.whatsapp.com/send?phone=3218840715" class="boton-what" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+  </main>
+
+  <section class="esquineros_carrton awo">
+    <h2> ESQUINEROS DE CARTON</h2>
+    <div class="row">
+
+      <div class="col col-md-3">
+
+        <img src="IMGS-PRODUCTOS/ESQUINEROS DE CARTON-1.webp" class="rounded mx-auto d-block" alt="...">
+      </div>
+      <div class="col col-md-3">
+        <img src="IMGS-PRODUCTOS/ESQUINEROS DE CARTON-2.webp" class="rounded mx-auto d-block" alt="...">
+
+      </div>
+
+      <div class="col col-md-3">
+
+        <img src="IMGS-PRODUCTOS/ESQUINEROS DE CARTON-3.webp" class="rounded mx-auto d-block" alt="...">
+      </div>
+
+    </div>
+    <p>Esquineros de cartón
+      Los esquineros de cartón son una solución de embalaje ecológica y económica, diseñada para proteger
+      productos durante su almacenamiento y transporte. Fabricados con materiales reciclables, estos
+      esquineros proporcionan una resistencia superior contra golpes, vibraciones y daños, manteniendo
+      la integridad de los bordes y esquinas de una amplia variedad de mercancías. Ideales para sectores
+      como la construcción, la alimentación y la industria manufacturera, su versatilidad y sostenibilidad
+      los convierten en una opción popular para asegurar cargas en palets y embalajes personalizados.
+      Optimiza tus envíos con esquineros de cartón, contribuyendo al cuidado del medio ambiente.</p>
+  </section>
+
+
+  <div id="contacto" class="container-form row">
+    <div class="info-form col md-6">
+      <h2>CONTACTANOS</h2>
+      <p>¡Nos encantaría saber de ti! En EMBACOLSA, nos comprometemos a brindarte el mejor
+        servicio en suministros de embalaje en Colombia. Si tienes preguntas, dudas o
+        simplemente necesitas asesoría para elegir el producto perfecto para tus necesidades,
+        no dudes en ponerte en contacto con nosotros. Nuestro equipo de expertos está aquí
+        para ayudarte a encontrar soluciones rápidas y eficaces. Completa el formulario a
+        continuación, envíanos un correo o llámanos.
+        ¡Esperamos poder atenderte pronto y ser parte de tu éxito!</p>
+      <a href="#"><i class="fa fa-phone"></i>3218720375 - 3146792834 </a>
+      <a href="#"><i class="fa fa-envelope"></i>Comercial@embacolsa.com.co - administracion@embacolsa.com.co</a>
+      <a href="#"><i class="fa fa-map-marked"></i>MEDELLIN-COLOMBIA</a>
+    </div>
+
+    <form id="form" autocomplete="off" class="col md-6">
+      <input type="text" name="from_name" placeholder="Nombre del contato * " id="from_name" class="campo">
+
+      <input type="email" name="correo" placeholder="Correo electrónico *" id="correo" class="campo">
+
+      <input type="number" name="telefono" placeholder="Teléfono *" id="telefono" class="campo">
+
+      <input type="text" name="ciudad" placeholder="Ciudad *" id="ciudad" class="campo">
+
+      <textarea name="message" placeholder="Escribe tu mensaje aqui" id="message"></textarea>
+
+      <input type="submit" id="button" name="ENVIAR" class="btn-enviar" value="ENVIAR MENSAJE">
+    </form>
+
+  </div>
+
+  <br>
+
+
+  <div class="contenedor-mapa">
+    <iframe class="mapa"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980768887!2d-75.66361448980648!3d6.244367697476059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1723854080221!5m2!1ses-419!2sco"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <footer class="footer">
+    <div class="footer_1">
+      <p>&copy;Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="bootstrap.js" ></script>
+</body>
+
+</html>

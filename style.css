@@ -1,0 +1,538 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-body: white;
+    --color-header: white;
+    --color-footer: white;
+}
+
+body {
+    background-color: var(--color-body);
+
+}
+
+img {
+    width: 300px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #070F2B;
+
+}
+
+.icono {
+    width: 30px;
+}
+
+.icono:hover {
+    transform: scale(1.05);
+}
+
+.conten {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav {
+    height: 140px;
+    width: 100%;
+
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+    border-bottom: 1px solid white;
+    color: white !important;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E')!important;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+
+}
+.contendedor {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .conten {
+        display: none;
+    }
+
+    .header {
+        flex-direction: row-reverse;
+        height: 180px;
+    }
+
+    .carousel {
+        margin-top: 180px;
+    }
+
+    .contenido12 {
+        flex-direction: column
+    }
+
+    .contenido12 p {
+        text-align: center;
+        margin: 8px;
+    }
+
+    .nosotros {
+        scroll-margin-top: 200px;
+    }
+
+    .producto {
+        scroll-margin-top: 200px;
+    }
+
+    .container-form {
+        margin: 0px;
+
+
+    }
+
+}
+
+@media (max-width:366px) {
+
+    .logo {
+        width: 45%;
+    }
+}
+
+.boton-what {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.3);
+}
+
+.boton-what:hover {
+    color: #0d64f0;
+    background-color: white;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer);
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer_1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+
+.footer-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content .ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.banner-1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.info {
+    font-size: 30px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+
+
+}
+
+.nosotros {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    gap: 50px;
+    scroll-margin-top: 120px;
+    text-align: justify;
+
+}
+
+.nos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.contenido12 {
+    display: flex;
+    align-items: center;
+}
+
+.nos h3 {
+    text-align: center;
+}
+
+
+/*.quienes-somos{
+    margin: 150px auto;
+    width: 70%;
+}*/
+
+.relleno-1 {
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    gap: 20px;
+}
+
+
+
+
+.contenido12 p {
+    font-size: 1.2Frem;
+
+}
+
+
+
+.text-box2 img {
+    justify-content: left;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+.relleno-2 {
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    gap: 20px;
+}
+
+.vision {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box3 img {
+    justify-content: left;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+.text-box3 h3 {
+    font-size: 42px;
+
+}
+
+.text-box3 p {
+    font-size: 16px;
+
+}
+
+.relleno-3 {
+    border-radius: 10px;
+    border: 3px solid black;
+    float: left;
+    margin: 20px;
+    gap: 20px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 200px
+}
+
+.quienes-somos h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    scroll-margin-top: 120px;
+}
+
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 12px;
+
+
+}
+
+.item-producto {
+
+    width: 250px;
+    height: 200px;
+
+}
+
+.btn-1 {
+    color: white;
+    background-color: #070F2B;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.btn-1:hover {
+
+    background-color: white;
+}
+
+
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 10px;
+    gap: 40px;
+
+}
+
+
+.cinta-s {
+    width: 30%;
+
+}
+
+
+.cinta-n {
+    width: 20%;
+
+}
+
+
+.cinta-c {
+    width: 25%;
+
+}
+
+
+.esquineros-1 {
+    width: 25%;
+
+}
+
+
+.seguros-1 {
+    width: 30%;
+
+}
+
+.overlay {
+    margin-top: 50px;
+}
+
+
+.container-form {
+    padding-left: 8%;
+    scroll-margin-top: 120px;
+}
+
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+
+
+.container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.container-form a i {
+    color: black;
+    margin-right: 10px;
+}
+
+
+.container-form form .campo,
+textarea {
+    width: 80%;
+    padding: 12px 12px;
+    font-size: 1rem;
+    border: 1.5px solid #000000;
+    border-radius: 12.5px;
+    outline: 0px;
+
+}
+
+
+
+.container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #070F2B;
+    color: aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    margin-top: 12px;
+}
+
+.container-form .btn-enviar:hover {
+    background: white;
+    color: #0d64f0;
+
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+.mapa {
+    width: 80%;
+    height: 300px;
+    border: 0;
+    margin: 20px auto;
+}
+
+.contenedor-mapa {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width:425px) {
+    .container-form {
+
+        padding: 20px;
+    }
+
+    textarea {
+        width: 80;
+    }
+}
+
+.STRECHT {
+    height: 300px;
+}
+
+
+
+.stil1 {
+    gap: 20px;
+}
+
+.awo h2 {
+    text-align: center;
+}
+
+.awo p {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+
+
+
+.footer {
+    background-color: #070F2B;
+    margin-top: 20px;
+
+}
+
+.footer_1 {
+    color: white;
+}
